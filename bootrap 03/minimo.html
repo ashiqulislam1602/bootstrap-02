@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS  links -->
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+
+ <title>Boostrap</title>
+  </head>
+  <body>
+
+   <section class="margin2">
+     <div class="container">
+       <div class="row">
+         <div class="col-md-12">
+          <nav aria-label="breadcrumb">
+
+            <ol class="breadcrumb">
+             <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+             <li class="breadcrumb-item active" aria-current="page">minimo</li>
+           </ol>
+          </nav>
+
+         </div>
+       </div>
+     </div>
+   </section>
+
+   <!--from1 start-->
+
+  <section class="margin2">
+
+    <div class="container">
+      <div class="row">
+
+
+
+ <form>
+
+    <div class="mb-3">
+
+        <label for="Email1" class="form-label">Email address</label>
+
+        <input type="email" class="form-control Email1" id="Email1" name="Email1" required="required" >
+        
+     </div>
+
+
+  <div class="mb-3">
+
+        <label for="Password1" class="form-label">Password</label>
+
+        <input type="password" class="form-control Password1" id="Password1" name="Password1" required="required">
+  </div>
+
+
+  <div class="mb-3 form-check">
+
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+
+
+</form>
+
+      </div>
+    </div>
+  </section>
+
+<!--from1 end -->
+
+
+<!--from2  start -->
+
+<section class="margin2">
+
+  <div class="container">
+
+    <div class="row">
+
+    <form>
+
+    <select class="form-select" multiple aria-label="multiple select example">
+
+  
+      <option selected>Open this select menu</option>
+  
+      <option value="1">One</option>
+  
+      <option value="2">Two</option>
+  
+      <option value="3">Three</option>
+
+      <option value="4">four</option>
+
+</select>
+
+
+   </form>
+    </div>
+  </div>
+</section>
+
+<!--from2  end -->
+
+
+<!--from  start -->
+
+  <section class="margin2">
+
+    <div class="container">
+
+      <div class="row">
+        
+      <form class="row g-3 needs-validation" novalidate>
+
+        <!--first name-->
+
+       <div class="col-md-6">
+
+       <label for="f_name" class="form-label">First name</label>
+       <input type="text" class="form-control f_name" id="f_name" name="f_name" placeholder="Enter your first name" required>
+
+       <div class="valid-feedback">
+       Looks good!
+       </div>
+
+       <div class="invalid-feedback">
+        Enter your first name
+      </div>
+
+    </div>
+
+   <!--last name-->
+
+  <div class="col-md-6">
+
+    <label for="l_name" class="form-label">Last name</label>
+
+    <input type="text" class="form-control l_name" id="l_name" name="l_name" placeholder="Enter your last name" required>
+
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+     <div class="invalid-feedback">
+        Enter your last name
+      </div>
+
+  </div>
+
+  <!-- user name-->
+
+  <div class="col-md-4">
+
+    <label for="username1" class="form-label">Username</label>
+
+    <div class="input-group">
+
+      <span class="input-group-text" id="username1">@</span>
+
+      <input type="text" class="form-control username1" id="username1" name="username1" placeholder="Enter your username" required>
+
+      <div class="valid-feedback">
+        Looks good!
+       </div>
+     <div class="invalid-feedback">
+
+        Enter your username
+      </div>
+
+    </div>
+  </div>
+
+  <!-- city -->
+
+  <div class="col-md-4">
+
+
+    <label for="city1" class="form-label">Country</label>
+
+   <select class="form-select" id="city1" name="city1" placeholder=" Chose your city name" required>
+
+      <option selected disabled value="">Choose your country name...</option>
+
+      <option>Bangladesh</option>
+      <option>Nepal</option>
+      <option>Pakistan</option>
+      <option>Indonesia</option>
+      <option>China</option>
+    </select>
+
+    <div class="valid-feedback">
+        Looks good!
+       </div>
+      <div class="invalid-feedback">
+      Please provide a valid city.
+    </div>
+  </div>
+
+
+  <div class="col-md-4">
+    <label for="state" class="form-label">State</label>
+    <select class="form-select" id="state" name="state" placeholder=" Enter your state name" required>
+
+      <option selected disabled value="">Choose your country name...</option>
+
+      <option>Dhaka</option>
+      <option>kathmondu</option>
+      <option> Karachi</option>
+      <option>Bali</option>
+      <option>wan-jo</option>
+    </select>
+
+    <div class="valid-feedback">
+        Looks good!
+       </div>
+
+    <div class="invalid-feedback">
+      Please select a valid state.
+    </div>
+  </div>
+ 
+ 
+  <div class="col-12">
+
+    <div class="form-check">
+
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="form-check-label" for="invalidCheck">
+        Agree to terms and conditions
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+      </div>
+
+         <div class="col-12">
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </div>
+
+
+</form>
+
+      </div>
+    </div>
+  </section>
+
+ <!-- Alerts start-->
+
+   <section class="margin2">
+   
+   <div class="container">
+     
+   <div class="row">
+     
+   <div class="col-md-12">
+     
+   
+   <div class="alert alert-danger alert-dismissible fade show">
+     Lorem Agree to terms and conditions <a href="#">ASH</a> Agree to terms and conditions
+     <button type="button" class="btn-close" data-dismiss="alert" aria-label="Close"></button>
+   </div>
+
+
+   </div>
+
+   </div>
+
+   </div>
+
+   </section>
+
+
+
+  <!-- Accodion  start-->
+
+  <section class="margin2">
+    
+   <div class="container">
+     
+   <div class="row">
+     
+   <div class="col-md-12">
+     
+    
+    <div class="accordion" id="accordion1">
+      <div class="accordion-item">
+    <h1 class="accordion-header" id="heading1">
+      <button class="accordion-button" type="button" data-toggle="collapse" data-target="#collapse01" aria-expanded="true" aria-controls="collapse01">
+        Accordion Item #1
+      </button>
+    </h1>
+    <div id="collapse01" class="accordion-collapse collapse show" aria-labelledby="heading1" data-parent="#accordion1">
+      <div class="accordion-body">
+        <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="accordion-item">
+    <h1 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapse02" aria-expanded="false" aria-controls="collapse02">
+        Accordion Item #2
+      </button>
+    </h1>
+    <div id="collapse02" class="accordion-collapse collapse" aria-labelledby="heading2" data-parent="#accordion1">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="accordion-item">
+    <h1 class="accordion-header" id="heading3">
+      <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapse03" aria-expanded="false" aria-controls="collapse03">
+        Accordion Item #3
+      </button>
+    </h1>
+    <div id="collapse03" class="accordion-collapse collapse" aria-labelledby="heading3" data-parent="#accordion1">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+
+
+   </div>
+
+   </div>
+
+   </div>
+
+  </section>
+
+  <!--badge start-->
+
+  <section class="margin2">
+    
+  <div class="container">
+    
+  <div class="row">
+    
+    <div class="col-4">
+      <h3> custom CSS  <span class="badge bg-danger"> 20% off</span></h3>
+    </div>
+
+   <div class="col-4">
+      <h3> custom html  <span class="badge bg-warning"> 20% off</span></h3>
+    </div>
+
+    <div class="col-4">
+      <h3> custom Boostrap <span class="badge bg-info"> 20% off</span></h3>
+    </div>
+
+  </div>
+
+   <div class="row">
+    
+    <div class="col-4">
+      <h3> java custom  <span class="badge rounded-pill bg-primary"> 20% off</span></h3>
+    </div>
+
+   <div class="col-4">
+      <h3> custom sass  <span class="badge rounded-pill bg-success"> 20% off</span></h3>
+    </div>
+
+    <div class="col-4">
+      <h3> custom jquery <span class="badge rounded-pill bg-dark"> 20% off</span></h3>
+    </div>
+
+  </div>
+
+  </div>
+
+  </section>
+
+
+  <!--breadcumbs -->
+
+  <section class="margin2">
+
+    <div class="container">
+      
+   <div class="row">
+      
+      <div class="col-md-4">
+        
+
+
+      </div>
+
+   </div>
+
+   </div>
+    
+  </section>
+
+
+
+
+
+
+
+    <!--  js  links -->
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <!---->
+
+</body>
+</html>
